@@ -1,0 +1,6 @@
+<b>Yazarlar</b>
+<ul>
+    {% for author in author_list %}
+    <li><a href="/books/authordetail/{{author.id}}">{{author.name}}</a></li>
+    {% endfor %}
+</ul>
